@@ -1,0 +1,193 @@
+body{
+ background-image: url(Aesthetic2.jpg);   
+ background-repeat: no-repeat;
+ background-position: left;
+ background-size: fill;
+ min-height: 100vh;
+}
+form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 100%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+h1{
+    display: inline-block;
+    width:  500px;
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-bottom: 3px;
+    -webkit-background-clip: text;
+    background: linear-gradient(white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+#signupinfo{
+   font-family: 'Roboto', sans-serif;
+   text-transform: lowercase;
+   font-size: 2rem;
+   margin-top: 1px;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+h2{
+   font-family: 'Roboto', sans-serif;
+   font-size: 2.5rem;
+   margin-top: 1px;
+   margin-bottom: 1px;
+   text-align: center;
+   text-transform: uppercase;
+   -webkit-background-clip: text;
+   background: linear-gradient(to right,#fccb07, #FFFFFF);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+@keyframes toFrom{
+    from{
+        transform: translateY(-20px) translateX(30px);
+    }
+    to{
+        transform: translateY(-15px) translateX(20px);
+    }
+}
+.knowDiv{    
+    position: absolute;
+    display: flex;
+    flex-direction: right;
+    box-shadow: 5px 10px 20px  #B00035;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1.5px white solid;
+    background-color: black;
+    animation: toFrom 2s ease-in-out infinite alternate;
+}
+#div1{
+    left: 5px;
+}
+#div2{
+    top: 280px;
+    right: 580px;
+}
+#div3{
+    top: 400px;
+    left: 60px;
+}
+#div4{
+    top: 480px;
+    right: 600px;
+}
+#know{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+#glimpse{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+#Remember{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+label{
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .9rem;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px white solid;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 8.5px;
+    transition: transform ease-in-out .2s;
+}
+input:hover{
+    border: 1.2px yellow solid;
+    cursor: pointer;
+}
+#department{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+select{
+    padding: 10px;
+    color: white;
+    background: transparent;
+    width: 100%;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+option{
+    background-color: black;
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.check{
+    display: flex;
+    flex-direction: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
+button{
+    background: transparent;
+    padding: 10px;
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    transition: transform ease-in-out .2s;
+}
+button:hover{
+    transform: scale(.9);
+    background: linear-gradient(to left, rgb(82, 12, 51), rgb(244, 206, 12));
+    cursor: pointer;
+    color: black;
+}
+#haveAccount{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    text-align: center;
+}
+a:hover{
+    font-size: .9rem;
+    cursor: pointer;
+}

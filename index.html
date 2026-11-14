@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+    <title>SIGN UP</title>
+</head>
+<body>
+    <div>
+        <h1>Are You new here?</h1>
+        <p id="glimpse">Get a Glimpse of our Services and what you'll expect<br> from the Platform</p>
+    </div>
+    <div id="div1" class="knowDiv">
+        <p id="know">Log in to your Portfolio Of Evidence (POE) at ease and access your past results or update your current papers of exams</p>
+    </div>
+    <div id="div2" class="knowDiv">
+        <p id="know">Get real time updates on School Announcements, Guidelines, Updates and Activities</p>
+    </div>
+    <div id="div3" class="knowDiv">
+        <p id="know">Chat one in one with our inbuilt AI assistant to understand more about your Institution</p>
+    </div>
+    <div id="div4" class="knowDiv">
+        <p id="know">Engage into Institutional Clubs and Activities for a more enhanced experience with us</p>
+    </div>
+    <div>
+        <form>
+            <h2>Welcome New User!</h2>
+            <p id="signupinfo">Sign up to get Started</p>
+            <label>First Name<input id="firstname" type="text" required></label>
+            <label>Last Name<input id="lastname" type="text" required></label>
+            <label>Email<input id="email" placeholder="Enter your School Email" type="email" required></label>
+            <!--<label>Admission Number<input type="text" required></label>-->
+            <label id="department">Department Course
+                <select class="select">
+                    <option class="options">Select your Department of Study</option>
+                    <option class="options">Computing & Informatics</option>
+                    <option class="options">Engineering</option>
+                    <option class="options">Hospitality</option>
+                    <option class="options">Nutrition & Dietrics</option>
+                    <option class="options">Interior Design</option>
+                    <option class="options">Business & Finance</option>
+                    <option class="options">Cosmetology</option>
+                    <option class="options">Fashion & Design</option>
+                </select>
+            </label>
+            <label>Password<input id="password1" type="password" required></label>
+            <label>Confirm Password<input id="password2" type="password" required></label>
+            <div class="check"><input id="checkbox" type="checkbox"><label id="Remember">Remember Me</label></div>
+            <button id="submit" type="button">Submit</button>
+            <p id="haveAccount">Already have an Account?</p>
+            <a href="">Login</a>
+        </form>
+    </div>
+</body>
+</html>
